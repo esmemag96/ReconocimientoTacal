@@ -82,3 +82,4 @@ https://cloud.ibm.com¬/
 
     •	De igual manera podemos observar desde la página de IBM Cloud en el apartado de “Apps de Cloud Foundry” que ya se encuentra en ejecución nuestra aplicación.
 # ReconocimientoTacal
+# ReconocimientoTacal
