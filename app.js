@@ -10,7 +10,7 @@ var fs = require('fs');
 //set IBM cloud credentials in this section
 var visualRecognition = new VisualRecognitionV3({
   version: '2019-05-29',
-  iam_apikey: 'HRcJTXO--mTLE9e112frcsVlXRK_Br3G_PoZXcgOyTs0'
+  iam_apikey: 'xQkqoY3KYZwGKkYDMYVxd2IdPr5jTu1aZB8ZBrFbXPet'
 });
 
 // Set The Storage Engine
@@ -72,7 +72,7 @@ app.post('/upload', (req, res) => {
         });
       } else {
         var images_file = fs.createReadStream(`./public/uploads/${req.file.filename}`);
-        var classifier_ids = ["DefaultCustomModel_1224615642"];
+        var classifier_ids = ["DefaultCustomModel_42548704"];
         console.log("datos de la imagen -- " + images_file);
         //
           var params = {
@@ -173,6 +173,6 @@ app.post('/upload2', (req, res) => {
   });
 });
 
-const port = 8080;
+const port = 8000;
 
 app.listen(port, () => console.log(`Server started on port ${port}`));

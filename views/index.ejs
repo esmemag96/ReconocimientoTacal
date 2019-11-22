@@ -11,7 +11,7 @@
 </head>
 <body>
   <div class="container">
-    <h1>Analizador de Perros</h1>
+    <h1>Reconocimiento Tacal</h1>
     <%= typeof msg != 'undefined' ? msg : '' %>
     <form action="/upload" method="POST" enctype="multipart/form-data">
       <div class="file-field input-field">
@@ -24,8 +24,8 @@
         </div>
       </div>
 
-      <button type="submit" class="btn deep-purple accent-3" id="sb">Clasificador personalizado</button>
-      <button type="submit" class="btn" formaction="/upload2" id="sdb">Clasificador general</button>
+      <button type="submit" class="btn deep-purple accent-3" id="sb">Analizar</button>
+      <!-- <button type="submit" class="btn" formaction="/upload2" id="sdb">Clasificador general</button> -->
 
     </form>
 
